@@ -1,0 +1,19 @@
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+    border-left: 1px solid palegoldenrod;
+    border-right: 1px solid palegoldenrod;
+    min-height: 100vh;
+}
+
+#chat-content {
+    min-height: 400px;
+    margin: 20px auto;
+}
+
+.content-mine {
+    text-align: right;
+}
+
+.content-other {
+}

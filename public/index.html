@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat Room</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="chat-content"></div>
+        <label id="nickname"></label>
+        <input type="text" id="nickname-input">
+        <button id="change-nickname">change</button>
+        <br/>
+        <textarea name="" id="message-input" cols="30" rows="10"></textarea>
+        <br>
+        <button id="message-submit">Submit</button>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
